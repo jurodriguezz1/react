@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilo.css" />
+    <meta name="keywords" content="Ropa, Moda, Hanover Clothes">
+    <title>Hanover Clothes</title>
+</head>
+<body>
+    <header>
+        <li>
+            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+        </li>
+        <li>
+            <a class="nav-link active" aria-current="page" href="./paginas/productos.html">Productos</a>
+        </li>
+        <li>
+            <a class="nav-link active" aria-current="page" href="./paginas/contacto.html">Contacto</a>
+        </li>
+        <li>
+            <a class="nav-link active" aria-current="page" href="./paginas/ventapormayor.html">Venta por mayor</a>
+        </li>
+    </header>
+    <main>
+        <h4> Carrito de compras</h4>
+        <ul id="items">
+
+            <li class="item">
+                <img src="./img/vegan.jpeg" alt="Vegan Leather Jacket">
+                <span>Vegan Leather Jacket</span>
+                <button class="btn">Agregar</button>
+            </li>
+
+            <li class="item">
+                <img src="./img/corderito.jpeg" alt="Pijamanta Corderito">
+                <span>Pijamanta Corderito</span>
+                <button class="btn">Agregar</button>
+            </li>
+
+            <li class="item">
+                <img src="./img/polarsoft.jpeg" alt="Pijama Polarsoft">
+                <span>Pijama Polarsoft</span>
+                <button class="btn">Agregar</button>
+            </li>
+
+            
+            <li class="item">
+                <img src="./img/metalizada.jpeg" alt="Puffer Metalizada">
+                <span>Puffer Metalizada</span>
+                <button class="btn">Agregar</button>
+            </li>
+
+            
+            <li class="item">
+                <img src="./img/alaska.jpeg" alt="Puffer Alaska">
+                <span>Puffer Alaska</span>
+                <button class="btn">Agregar</button>
+            </li>
+
+            
+            <li class="item">
+                <img src="./img/mia.jpeg" alt="Puffer Mia">
+                <span>Puffer Mia</span>
+                <button class="btn">Agregar</button>
+            </li>
+
+        </ul>
+    </main>
+
+    <h2> Carrito: </h2>
+    <ul id="carrito"></ul>
+    <p>Total : <span id="total">0</span></p>
+    <button id="btnVaciar">Vaciar Carrito</button>
+
+<!-- form -->
+    <form id="formulario">
+        <p>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" required>
+    </p>
+<p>
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" required>
+    </p>
+    <p>
+        <label for="telefono">Telefono</label>
+        <input type="number" id="telefono" name="telefono" required>
+    </p>
+    <p>
+        <label for="comentario">Comentario</label>
+        <input type="text id="comentario" name="comentario" required>
+</p>
+<p>
+    <input type="submit" value="Enviar">
+</p>
+
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

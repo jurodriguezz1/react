@@ -1,0 +1,23 @@
+#items {
+    list-style: none;
+    padding: 0;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.item img {
+    width: 300px;
+    height: auto;
+}
+
+.btn {
+    padding: 5px 10px;
+    background-color: #4c4c4c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
